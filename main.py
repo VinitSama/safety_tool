@@ -38,7 +38,6 @@ cap = cv2.VideoCapture(0)
 
 
 
-
 CLASS_NAMES = {0: "No Seatbelt worn", 1: "Seatbelt Worn"}
 
 # Threshold score for the predictor model
@@ -211,8 +210,7 @@ while True:
         break
 
 
-#cap.release()
-# writer.release()
+
 
 # Destroy all the windows
 cv2.destroyAllWindows()
